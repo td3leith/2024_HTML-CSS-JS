@@ -1,0 +1,196 @@
+
+
+/* encabezado y menu central */
+
+
+#main-header {
+	background: rgb(30, 102, 2);
+	color: rgb(65, 38, 38);
+	height: 140px;
+	
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: fixed;
+}	
+	#main-header a {
+		color: white;
+	}
+	
+	
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #f18c07;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 2em;
+	}
+	
+	#logo-header .site-desc {
+        
+		display: block;
+		font-weight: 500;
+		font-size: 1.2em;
+		color: #999;
+	}
+	
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height:120px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+
+
+
+/* cuerpo index, imagenes centrales */
+
+body {
+    padding-top: 100px;
+    margin: 0;
+    height: 100%;
+    background-image:linear-gradient(to left,pink,orange);
+    
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+
+
+  }
+    
+p{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-size: large;
+
+}
+
+.histo{
+  padding: 5% 30% 5% 30%;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-size: large;
+  text-align: justify;
+
+}
+.texto1{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    font-optical-sizing: auto;
+    font-size: large;
+    text-align: justify;
+    padding: 40px;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+}
+
+.consulta{
+  padding: 30px 30px 30px 30px;
+}
+/* cuerpo de la lista de mascotas- FLEXBOX */
+
+
+.container {
+    min-width: 90vw;
+    min-height: 70vh;
+    background-color: teal;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+}
+
+.item {
+    width: 350px;
+    height:350px;
+    padding:5px;
+	margin: 10px auto;
+    background-color: bisque;
+    border: solid;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* pie de pagina */
+
+.lista ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+ 
+.lista li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+}
+
+footer {
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #AEB6BF;
+    color: #F0F3F4;
+  }
+
+.fondo-pie {
+    width: 90%;
+    margin: 0 auto;
+    display:grid;
+    justify-content: left;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+  }
+
+.fondo-pie h3
+{   
+    font-family: monospace;
+    font-size: 25px;
+    padding-bottom: 5px;
+
+  }
+
+.copyright
+{
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+
+}  
+
+
+/* --------------------------------------------- */
