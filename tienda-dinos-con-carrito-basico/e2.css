@@ -1,0 +1,24 @@
+.section1{
+    background-color: azure;/*es el color del fondo de este section*/
+    display:flex; /*esto hace a los elementos flexibles*/
+    justify-content: space-between;/*alineamos los elementos*/
+    padding: 40px;/*espaciado desde dentro del contenido hacia todos los lados*/
+    width: 50%;/* siempre va a ocupar el 50%*/
+    margin: 15px auto;/* 15 pixeles desde arriba y abajo y automatico de los lados*/
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,.5)/* es la sombra de la seccion*/
+  }
+  
+.section1 img{
+    /*aqui accedo a las imagenes */
+    width:200px;
+    border-radius: 30px;/*redondeo un poco los bordes de las imagenes*/
+    border: dashed 3px grey;
+  }
+  
+.section1 p{
+    /*accedemos al parrafo*/
+    color: blue;
+    margin-right: 15px;
+  
+  }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos</title>
+    <link rel="stylesheet" href="e.css" />
+    <style>
+      .tabla-carrito {
+        background-color: white;
+      }
+      .carrito {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="mascotas.html">seguir comprando</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Mi carrito</h1>
+
+      <section class="carrito" id="seccion-carrito">
+        <table class="tabla-carrito">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Nombre</th>
+              <th>Cantidad</th>
+              <th>Precio</th>
+            </tr>
+          </thead>
+          <tbody class="items">
+            <tr data-id="">
+              <td>Nombre</td>
+              <td>Cantidad</td>
+              <td>Precio</td>
+            </tr>
+          </tbody>
+        </table>
+        <button id="btn-pagar">pagar</button>
+      </section>
+
+      <script src="./js/carrito.js"></script>
+      <script src="./js/comprar.js"></script>
+    </main>
+  </body>
+  <footer>
+    <div class="fondo-pie">
+      <div class="lista">
+        <h3>Nuestros servicios</h3>
+        <ul>
+          <li><a href="enconstruccion.html"> Mascotas particulares |</a></li>
+          <li><a href="enconstruccion.html"> Peluqueria para dinos |</a></li>
+          <li> <a href="enconstruccion.html">Alimentos para nuestros animalitos |</a></li>
+          <li><a href="enconstruccion.html"> Servicio veterinario |</a></li>
+          <li><a href="enconstruccion.html">Elementos para el confort de las mascotas |</a></li>
+        </ul>
+
+        <h3>Mas sobre nosotros</h3>
+        <ul>
+          <li><a href="acerca.html#STAFF"> Nuestro Staff |</a></li>
+          <li><a href="historia.html#HISTORIA"> Nuestra Historia |</a></li>
+          <li><a href="filosofia_a.html"> Nuestra Filosofia |</a></li>
+          <li><a href="legales.html"> Legales |</a></li>
+        </ul>
+
+        <h3>Contactate con nosotros</h3>
+        <ul>
+          <li>
+            Phono: +549 267 8962 |+549 267 8751 |+549 267 8964 |+549 267 7962
+            |
+          </li>
+          <li>dinos@dinos.kz |</li>
+          <li>12 la calle con dinos, ChinaTown, Argenchina, CP75011 |</li>
+        </ul>
+
+        <p class="copyright">DINOS DE MASCOTA © 2024</p>
+      </div>
+    </div>
+  </footer>
+</html>

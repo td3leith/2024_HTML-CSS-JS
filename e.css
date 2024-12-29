@@ -74,7 +74,7 @@ nav {
 
 
 
-/* cuerpo index, imagenes centrales */
+/* ------------------cuerpo index, imagenes centrales ------------------*/
 
 body {
     padding-top: 100px;
@@ -96,12 +96,12 @@ p{
 }
 
 .histo{
-  padding: 5% 30% 5% 30%;
-  font-family: "Edu AU VIC WA NT Pre", cursive;
+  padding: 5% 15% 5% 15%;
+  
   font-optical-sizing: auto;
   font-size: large;
   text-align: justify;
-
+  
 }
 .texto1{
     font-family: "Edu AU VIC WA NT Pre", cursive;
@@ -113,35 +113,268 @@ p{
     height: 100%;
     align-items: center;
 }
+/* ------------------imagenes centrales de la home ------------------*/
+
+.index_menu img{
+  border-radius: 5px;/*redondeo un poco los bordes de las imagenes*/
+  border: solid 5px rgb(68, 73, 83);
+}
+
+.index_menu img:hover{
+  transform:scale(0.8);
+  border-radius: 30px;/*redondeo un poco los bordes de las imagenes*/
+  border: solid 10px rgb(233, 68, 18);
+  transform: translate(30px);/* Traslada el elemento 30px hacia la derecha */
+  /*transform: skew(5deg,5deg);/*Skew: distorsiona los elementos según el ángulo en grados. La función skew() se establece con uno o dos valores: skew(x) o skew(x,y).*/
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+
+/* ------------------imagenes centrales de la home ------------------*/
 
 .consulta{
-  padding: 30px 30px 30px 30px;
+  padding: 5% 10% 5% 10%;
 }
-/* cuerpo de la lista de mascotas- FLEXBOX */
 
+/* ------------------cuerpo de la lista de mascotas- FLEXBOX ------------------*/
+
+.textomascotas{
+  width: auto;
+  margin: 60px 30px 30px 30px;
+  text-align: justify;
+}
+.textomascotas h1{
+  font-style: italic;
+  padding: 0px 0px 0px 45px;
+  }
+
+.encabezadomascotas {
+display: flex;
+justify-content: space-between;
+
+}
+.textomascotas p{
+  color: white;
+  width: 75%;
+  margin: 0px 0px 0px 30px;
+}
+.textomascotas img{
+  
+  border-radius: 5px;
+}
+
+.box {
+    flex: grow 1;
+
+}
+.item{
+  display:none; 
+  transition: all .5s;
+  display:block;
+  
+}
+
+.item:hover{
+  scale: 1.1;
+  -webkit-transition: 2s linear;
+  transition: 2s linear;
+  border: solid 10px rgb(0, 0, 0);
+
+}
+
+
+ /* Invisible texto */
+ figcaption {
+  display:none; 
+  transition: all .5s;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:block;
+  transition: all .5s;
+}
 
 .container {
-    min-width: 90vw;
-    min-height: 70vh;
-    background-color: teal;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-evenly;
+  min-width: 90vw;
+  min-height: 70vh;
+  background-color: teal;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
 }
 
 .item {
-    width: 350px;
-    height:350px;
-    padding:5px;
-	margin: 10px auto;
-    background-color: bisque;
-    border: solid;
-    align-self: center;
-    margin-left: auto;
-    margin-right: auto;
+  width: 350px;
+  height:350px;
+  padding:5px;
+  margin: 10px auto;
+  background-color: bisque;
+  border: solid;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;/*redondeo un poco los bordes de las imagenes*/
+  border: solid 5px grey;
 }
 
-/* pie de pagina */
+.item img{
+padding-top: 25px;
+}
+
+
+
+.volver{
+  background-color: azure;/*es el color del fondo de este section*/
+  display:flex; /*esto hace a los elementos flexibles*/
+  justify-content: space-between;/*alineamos los elementos*/
+  padding: 0px 40px 0px 40px;/*espaciado desde dentro del contenido hacia todos los lados*/
+  width: 70%;/* siempre va a ocupar el 50%*/
+  margin: 5px auto;/* 15 pixeles desde arriba y abajo y automatico de los lados*/
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,.5)/* es la sombra de la seccion*/
+
+}
+
+/* ------------------FILOSOFIA---------------- */
+
+.filo{
+  width:100%;
+  padding: 35px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  /*
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  */
+ 
+}
+.filo h1{
+  font-size: xx-large;
+  color: #999;
+}
+.filo1 p{
+  text-align: justify;
+  font-weight: bold;
+}
+
+/**********histo prehistorica****************/
+.histo_pre{
+  width:100%;
+  padding: 35px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
+.histo_pre1{
+  width: 80%;
+  text-align: justify;
+}
+.histo_pre h1{
+  text-align: center;
+  color: #861f26;
+  font-size: 3em;
+}
+.histo_pre h3{
+  text-align: center;
+  color: #861f26;
+  font-size: 2.5em;
+}
+.histo_pre1 p{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+/* ------------------STAFF---------------- */
+
+
+.staff{
+  background-image:linear-gradient(to right, rgb(155, 247, 247), rgb(250, 203, 116) ) ;/*es el color del fondo de este section*/
+  display:flex; /*esto hace a los elementos flexibles*/
+  justify-content: space-between;/*alineamos los elementos*/
+  padding: 40px;/*espaciado desde dentro del contenido hacia todos los lados*/
+  width: 70%;/* siempre va a ocupar el 50%*/
+  margin: 35px auto;/* 15 pixeles desde arriba y abajo y automatico de los lados*/
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,.5)/* es la sombra de la seccion*/
+}
+
+.staff img{
+  /*aqui accedo a las imagenes */
+  width:200px;
+  height:200px;
+  border-radius: 30px;/*redondeo un poco los bordes de las imagenes*/
+  border: solid 7px rgb(12, 76, 160);
+  
+}
+
+.parrafostaff p{
+  /*accedemos al parrafo*/
+  color: blue;
+  margin-right: 15px;
+
+}
+
+/* ------------------STAFF---------------- */
+
+/* ------------------EN CONSTRUCCION---------------- */
+.construccion{
+  background-image:url("fondo_planta.jpg");
+  padding: 30px;
+
+}
+
+.construccion p{
+  
+  font-size: 3em;
+  color: #fe7f88;
+  background-color: black;
+  text-align: center;
+  padding: 0px 40px 0px 40px;/*espaciado desde dentro del contenido hacia todos los lados*/
+  width: 70%;/* siempre va a ocupar el 50%*/
+  margin: 15px auto;/* 15 pixeles desde arriba y abajo y automatico de los lados*/
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,.5)/* es la sombra de la seccion*/
+
+  
+}
+.peligro{
+margin: auto;
+text-align: center;
+
+}
+
+.retorno{
+  font-size: 3em;
+  color: #861f26;
+  background-color: white;
+  text-align: center;
+ /* padding: 0px 40px 0px 40px;/*espaciado desde dentro del contenido hacia todos los lados*/
+  width: 70%;/* siempre va a ocupar el 50%*/
+  margin: 15px auto;/* 15 pixeles desde arriba y abajo y automatico de los lados*/
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px 10px rgba(197, 201, 6, 0.5)/* es la sombra de la seccion*/
+}
+/* ------------------EN CONSTRUCCION---------------- */
+
+/* ------------------FILOSOFIA---------------- */
+
+.filosofia {
+  width: 80%;
+}
+
+.filo {
+  width: 30%;
+  text-align: center;
+  margin: 15px auto;/* 15 pixeles desde arriba y abajo y automatico de los lados*/
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px 10px rgba(47, 61, 187, 0.5)/* es la sombra de la seccion*/
+}
+
+
+/* ------------------FILOSOFIA---------------- */
+
+
+/* ------------------pie de pagina---------------- */
 
 .lista ul
 {
@@ -191,6 +424,5 @@ font-size: large;
 font-family: 'Courier New', Courier, monospace;
 
 }  
-
 
 /* --------------------------------------------- */
