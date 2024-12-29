@@ -1,140 +1,180 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Mensaje</title>
-    <link rel="icon" href="huevi.ico">
-    <link href="e.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="huevi.ico" />
+    <link href="e.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header id="main-header">
-		
-		<a id="logo-header" href="#">
-			<span class="site-name">TIENDA DE MASCOTAS</span><br>
-			<span class="site-desc">TODO PARA TENER UN MASCOTA PREHISTORICA</span>
-		</a> <!-- / #logo-header -->
+      <a id="logo-header" href="#">
+        <span class="site-name">TIENDA DE MASCOTAS</span><br />
+        <span class="site-desc">TODO PARA TENER UN MASCOTA PREHISTORICA</span>
+      </a>
+      <!-- / #logo-header -->
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="acerca.html">Acerca de</a></li>
-				<li><a href="mensaje.html">Contacto</a></li>
-			</ul>
-		</nav><!-- / nav -->
-
-	</header><!-- / #main-header -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+          <li><a href="mensaje.html">Contacto</a></li>
+          <li><a href="carrito.html">Carrito</a></li>
+        </ul>
+      </nav>
+      <!-- / nav -->
+    </header>
+    <!-- / #main-header -->
 
     <section class="consulta">
-        <h1>FORMULARIO DE CONSULTA</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu nibh sed metus volutpat imperdiet ullamcorper ac ex. Donec pulvinar nec risus non ornare. Aliquam erat volutpat. Duis quam augue,
-             scelerisque id felis quis, sollicitudin egestas sapien. Etiam urna arcu, vehicula sed sapien ac, dignissim vehicula orci. Donec et metus et lacus interdum tincidunt. Proin hendrerit consectetur est,
-              semper gravida nibh pharetra vitae. Vestibulum scelerisque augue in turpis suscipit placerat. Nam egestas tempor ultricies. Sed rhoncus, felis semper mattis sagittis,
-             magna felis hendrerit augue, eget euismod orci arcu vitae diam. Integer volutpat iaculis libero, sed pulvinar quam sagittis ac.
-         <br>   
-        </p>
+      <h1>FORMULARIO DE CONSULTA</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu
+        nibh sed metus volutpat imperdiet ullamcorper ac ex. Donec pulvinar nec
+        risus non ornare. Aliquam erat volutpat. Duis quam augue, scelerisque id
+        felis quis, sollicitudin egestas sapien. Etiam urna arcu, vehicula sed
+        sapien ac, dignissim vehicula orci. Donec et metus et lacus interdum
+        tincidunt. Proin hendrerit consectetur est, semper gravida nibh pharetra
+        vitae. Vestibulum scelerisque augue in turpis suscipit placerat. Nam
+        egestas tempor ultricies. Sed rhoncus, felis semper mattis sagittis,
+        magna felis hendrerit augue, eget euismod orci arcu vitae diam. Integer
+        volutpat iaculis libero, sed pulvinar quam sagittis ac.
+        <br />
+      </p>
 
-        <div class="formulario">   
+      <div class="formulario">
         <form action="link" method="post" target="_blank">
-            <fieldset>
-                <legend><h2>Comunicate con nosotros:</h2></legend>
+          <fieldset>
+            <legend><h2>Comunicate con nosotros:</h2></legend>
 
+            <label for="email">Correo Electronico:</label>
+            <input
+              size="30"
+              type="text"
+              name="email"
+              id="email"
+              required
+              placeholder="tucorreo@correo.net"
+            />
+            <br />
+            <label for="firstname">Nombre:</label>
+            <input
+              size="30"
+              type="text"
+              name="firstname"
+              id="firstname"
+              required
+            />
 
-                <label for="email">Correo Electronico:</label>
-                <input size="30" type="text" name="email" id="email" required placeholder="tucorreo@correo.net">
-                <br>
-                <label for="firstname">Nombre:</label>
-                <input size="30" type="text" name="firstname" id="firstname" required>
-                
+            <label for="lasttname">Apellido:</label>
+            <input
+              size="30"
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="perez"
+            />
 
-                <label for="lasttname">Apellido:</label>
-                <input size="30" type="text" name="lastname" id="lastname" placeholder="perez">
-                
-                <br>
-                <label for="tel">Telefono Movil:</label>
-                <input size="30" type="text" name="tel" id="tel" required placeholder="1235486">
+            <br />
+            <label for="tel">Telefono Movil:</label>
+            <input
+              size="30"
+              type="text"
+              name="tel"
+              id="tel"
+              required
+              placeholder="1235486"
+            />
 
-                <br>
-                <h2>Te identificas con el sexo:</h2>
-                <input type="checkbox" name="sexo" value="Masculino">Masculino
-                <input type="checkbox" name="sexo" value="Femenino">Femenino
-                <input type="checkbox" name="sexo" value="otro">No quiero decirlo
-                <br>
+            <br />
+            <h2>Te identificas con el sexo:</h2>
+            <input type="checkbox" name="sexo" value="Masculino" />Masculino
+            <input type="checkbox" name="sexo" value="Femenino" />Femenino
+            <input type="checkbox" name="sexo" value="otro" />No quiero decirlo
+            <br />
 
-                <h2>Cuando te podes acercar?:</h2>
-                <select name="turno">
-                    <option>LUNES</option>
-                    <option>MIERCOLES</option>
-                    <option>VIERNES</option>
-                    <option>SABADO</option>
-                </select>
+            <h2>Cuando te podes acercar?:</h2>
+            <select name="turno">
+              <option>LUNES</option>
+              <option>MIERCOLES</option>
+              <option>VIERNES</option>
+              <option>SABADO</option>
+            </select>
 
-                <br>
-                <h2>Tu consulta es por:</h2>
-                <input type="checkbox" name="producto" value="mascota">Dinos que no estan en la lista
-                <input type="checkbox" name="producto" value="alimentos">Alimentos y otros
-                <input type="checkbox" name="producto" value="veterinario">Servicio veterinario
-                <br>
+            <br />
+            <h2>Tu consulta es por:</h2>
+            <input type="checkbox" name="producto" value="mascota" />Dinos que
+            no estan en la lista
+            <input type="checkbox" name="producto" value="alimentos" />Alimentos
+            y otros
+            <input
+              type="checkbox"
+              name="producto"
+              value="veterinario"
+            />Servicio veterinario
+            <br />
 
-                <h2>Tu mensaje:</h2>
+            <h2>Tu mensaje:</h2>
 
-                <textarea name="texto" rows="9" cols="80" placeholder="Escribi tu mensaje, gracias, de nada"></textarea>
+            <textarea
+              name="texto"
+              rows="9"
+              cols="80"
+              placeholder="Escribi tu mensaje, gracias, de nada"
+            ></textarea>
 
-                <br>
-                 <input type="submit" value="ENVIAR">
-
-            </fieldset>
+            <br />
+            <input type="submit" value="ENVIAR" />
+          </fieldset>
         </form>
-         </div>
-</section>
+      </div>
+    </section>
 
-      <footer>
-    <div class="fondo-pie">
-
+    <footer>
+      <div class="fondo-pie">
         <div class="lista">
-            <h3>Nuestros servicios</h3>
-            <ul>
-                <li><a href=”#”> Mascotas particulares |</a></li>
-                <li><a href=”#”> Peluqueria para dinos |</a></li>
-                <li><a href=”#”> Alimentos para nuestros animalitos |</a></li>
-                <li><a href=”#”> Servicio veterinario |</a></li>
-                <li><a href=”#”> Elementos para el confort de las mascotas |</a></li>
-            </ul>     
+          <h3>Nuestros servicios</h3>
+          <ul>
+            <li><a href="”#”"> Mascotas particulares |</a></li>
+            <li><a href="”#”"> Peluqueria para dinos |</a></li>
+            <li><a href="”#”"> Alimentos para nuestros animalitos |</a></li>
+            <li><a href="”#”"> Servicio veterinario |</a></li>
+            <li>
+              <a href="”#”"> Elementos para el confort de las mascotas |</a>
+            </li>
+          </ul>
 
-            <h3>Mas sobre nosotros</h3>
-            <ul>
-                <li><a href=”#”> Nuestro Staff |</a></li>
-                <li><a href=”#”> Nuestra Historia |</a></li>
-                <li><a href=”#”> Nuestra Filosofia |</a></li>
-                <li><a href=”#”> Legales |</a></li>
-            </ul>
-       
-            <h3>Contactate con nosotros</h3>
-            <ul>  
-            <li>Phono: +549 267 8962 |+549 267 8751 |+549 267 8964 |+549 267 7962 |</li>
+          <h3>Mas sobre nosotros</h3>
+          <ul>
+            <li><a href="”#”"> Nuestro Staff |</a></li>
+            <li><a href="”#”"> Nuestra Historia |</a></li>
+            <li><a href="”#”"> Nuestra Filosofia |</a></li>
+            <li><a href="”#”"> Legales |</a></li>
+          </ul>
+
+          <h3>Contactate con nosotros</h3>
+          <ul>
+            <li>
+              Phono: +549 267 8962 |+549 267 8751 |+549 267 8964 |+549 267 7962
+              |
+            </li>
             <li>dinos@dinos.kz |</li>
             <li>12 rue de l'invention, ChinaTown, Argenchina, CP75011 |</li>
-            </ul>
+          </ul>
 
-         <p class="copyright">Company Name © 2024</p>
-
+          <p class="copyright">Company Name © 2024</p>
         </div>
-
-
-
-    </div>
-  </footer>
-
-</body>
+      </div>
+    </footer>
+  </body>
 </html>
