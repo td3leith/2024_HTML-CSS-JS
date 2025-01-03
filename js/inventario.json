@@ -1,0 +1,192 @@
+{
+    "productos": [
+        {
+          "id": 1,
+          "categoria": "mascota",
+          "nombre": "estegosaurio",
+          "descripcion": "Tiene pinchos en la espalda",
+          "imagen": "dino0.png",
+          "precio": 10,
+          "stock": 1
+        },
+        {
+          "id": 2,
+          "categoria": "mascota",
+          "nombre": "triceratops",
+          "descripcion": "Descripción Producto 2",
+          "imagen": "dino1.png",
+          "precio": 20,
+          "stock": 10
+        },
+        {
+          "id": 3,
+          "categoria": "mascota",
+          "nombre": "cuello largo",
+          "descripcion": "tiene el cuello largo",
+          "imagen": "dino3.png",
+          "precio": 30,
+          "stock": 80
+        },
+        {
+          "id": 4,
+          "categoria": "mascota",
+          "nombre": "Pterodactilo",
+          "descripcion": "vuela",
+          "imagen": "dino1.png",
+          "precio": 50,
+          "stock": 10
+        },
+        {
+  
+            "id": 1,
+            "categoria": "mascota",
+            "nombre": "STEGOSAURIO",
+            "descripcion": "Tiene pinchos en la espalda",
+            "imagen": "dino0.png",
+            "precio": "10",
+            "stock": "1"
+          },
+          {
+            
+            "id": 2,
+            "categoria": "mascota",
+            "nombre": "TRICERAPTOPS",
+            "descripcion": "Descripción Producto 2",
+            "imagen": "dino1.png",
+            "precio": "20",
+            "stock": "10"
+          },
+          {
+            "userId":1,
+            "id": 3,
+            "categoria": "mascota",
+            "nombre": "BRAQUIOSAURIO",
+            "descripcion": "tiene el cuello largo",
+            "imagen": "dino3.png",
+            "precio": "30",
+            "stock": "80"
+          },
+          {
+           "userId": 1,
+            "id": 4,
+            "categoria": "mascota",
+            "nombre": "PTERODACTILO",
+            "descripcion": "vuela",
+            "imagen": "dino_4.png",
+            "precio": "50",
+            "stock": "10"
+          },
+          {
+          
+            "id": 5,
+            "categoria": "mascota",
+            "nombre": "IGUANODON",
+            "descripcion": "Bipedo con puas en los dedos",
+            "imagen": "dino_5.png",
+            "precio": "50",
+            "stock": "10"
+          },
+          {
+            "id": 6,
+            "categoria": "mascota",
+            "nombre": "VELOCIRAPTOR",
+            "descripcion": " es rapido y te come",
+           "imagen": "dino_6.png",
+            "precio": "50",
+            "stock": "10"
+          },
+          {
+
+            "id": 7,
+            "categoria": "mascota",
+            "nombre": "GALLIMIMUS",
+            "descripcion": " es liviano, herviboro y simpatico",
+            "imagen": "dino1.png",
+           "precio": "50",
+            "stock":" 10"
+          },
+          {
+             " id": 8,
+              "categoria": "mascota",
+              "nombre": "KUNMINGOSAURUS",
+              "descripcion": " es inmenso, y es de la familia de los sauropodos",
+              "imagen": "dino_3.png",
+              "precio": "50",
+              "stock": "10"
+            },
+            {
+              "id": 9,
+              "categoria": "mascota",
+              "nombre": "COMPSOGNATHUS",
+             " descripcion": " pequeño, es liviano, herviboro y simpatico",
+              "imagen": "dino_4.png",
+              "precio": "50",
+             " stock": "10"
+            },
+            {
+              "id": 10,
+              "categoria": "mascota",
+             " nombre": "COELURUS",
+              "descripcion": " de tamaño medio, es liviano, herviboro y simpatico",
+              "imagen": "dino_5.png",
+              "precio": "50",
+              "stock": "10"
+            },
+            {
+              "id": 11,
+             "categoria": "mascota",
+              "nombre": "ALLOSAURUS",
+              "descripcion": " de los grandes carnivoros",
+              "imagen": "dino_6.png",
+              "precio": "50",
+              "stock": "10"
+            },
+            {
+              "id": 12,
+              "categoria": "mascota",
+              "nombre": "TUOJIANGOSAURUS",
+              "descripcion": " como el stegosaurio pero de china, y es lindo",
+              "imagen": "dino_7.png",
+              "precio": "50",
+             "stock": "10"
+            },
+            
+            {
+              "id": 14,
+             " categoria": "alimentos",
+              "nombre": "croquetas para dinos",
+              "descripcion": "son crunchis",
+              "imagen": "dino_slide2.png",
+              "precio": "50",
+              "stock": "10"
+            },
+            {
+              "id": 15,
+              "categoria": "flora",
+              "nombre": "arbustos para dinos",
+              "descripcion": "son verdes",
+              "imagen": "dino_slide3.png",
+              "precio": "50",
+              "stock": "10"
+            },
+      
+        {
+          "id": 5,
+          "categoria": "alimentos",
+          "nombre": "croquetas para dinos",
+          "descripcion": "son crunchis",
+          "imagen": "dino_slide2.png",
+          "precio": 50,
+          "stock": 10
+        },
+        {
+          "id": 5,
+          "categoria": "flora",
+          "nombre": "arbustos para dinos",
+          "descripcion": "son verdes",
+          "imagen": "dino_slide3.png",
+          "precio": 50,
+          "stock": 10
+        }
+      ]
+}

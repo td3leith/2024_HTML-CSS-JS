@@ -316,6 +316,90 @@ padding-top: 25px;
 
 /* ------------------STAFF---------------- */
 
+/*******************RESEÑA******************/
+.containerb{
+  min-width: 90vw;
+  min-height: 70vh;
+  background-color: rgb(134, 212, 212);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+
+}
+.reseña{
+    width: 470px;
+    height:850px;
+    padding:5px;
+    margin: 10px auto;
+    background-color: bisque;
+    border: solid;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;/*redondeo un poco los bordes de las imagenes*/
+    border: solid 5px grey;
+  
+
+}
+.reseña img{
+  padding:5px 5px 5px 5px;/*es el espacio entre el borde y la imagen*/
+  width: 250px;
+  height:250px;
+  text-align: center;
+  border-radius: 5px;/*redondeo un poco los bordes de las imagenes*/
+  border: solid 5px rgb(216, 84, 7);
+  }
+
+.reseña p{
+text-align: justify;
+width: 430px;
+justify-content: center;
+padding: auto;
+
+}
+
+.rese{
+  text-align:center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.reseñaT{
+  justify-content: center;
+  align-items: center;
+}
+
+/**********Reseñas formulario***********/
+
+.formulario1{
+  color: #56b9e7;
+  background-color: indianred;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  /* align-items por defecto tiene el valor `stretch` */
+  align-items: start;
+  justify-content: center;
+  align-items: center;
+}
+
+.cajonmensajes{
+  
+
+}
+
+.formulario2{
+  width: 60%;
+  margin-top: 4%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+  border-color: rgb(17, 29, 25);
+  border-style: solid;
+  text-align: justify;
+}
+
+
 /* ------------------EN CONSTRUCCION---------------- */
 .construccion{
   background-image:url("fondo_planta.jpg");
