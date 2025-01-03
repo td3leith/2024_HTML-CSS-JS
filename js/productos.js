@@ -1,6 +1,6 @@
 // Los productos en un array de objetos
 let productos;
-fetch("/js/inventario.json")
+fetch("https://raw.githubusercontent.com/td3leith/2024_HTML-CSS-JS/refs/heads/carrito/js/inventario.json")
   .then((response) => {
     console.log('dentro de fetch');
     console.log(response);
